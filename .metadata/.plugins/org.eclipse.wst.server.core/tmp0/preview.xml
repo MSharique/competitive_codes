@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="Ecop" name="Ecop" path="G:/Dev-Cpp/codechef/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/Ecop" type="j2ee"/>
+</server>
