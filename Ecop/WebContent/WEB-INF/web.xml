@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>AjaxUtilInfoController</servlet-name>
+    <servlet-class>com.servlet.AjaxUtilInfoController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CitizenActionController</servlet-name>
+    <servlet-class>com.servlet.CitizenActionController</servlet-class>
+  </servlet>
+  <servlet> 
+    <servlet-name>AdminActionController</servlet-name>
+    <servlet-class>com.servlet.AdminActionController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CitizenMissingPersonActionController</servlet-name>
+    <servlet-class>com.servlet.CitizenMissingPersonActionController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmpoyeeActionController</servlet-name>
+    <servlet-class>com.servlet.EmpoyeeActionController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CrimeDetailsActionController</servlet-name>
+    <servlet-class>com.servlet.CrimeDetailsActionController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ArrestCourtActionController</servlet-name>
+    <servlet-class>com.servlet.ArrestCourtActionController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FinalReportActionController</servlet-name>
+    <servlet-class>com.servlet.FinalReportActionController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DownloadController</servlet-name>
+    <servlet-class>com.servlet.DownloadController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewMissingPersonActionController</servlet-name>
+    <servlet-class>com.servlet.ViewMissingPersonActionController</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AjaxUtilInfoController</servlet-name>
+    <url-pattern>/ajaxUtilInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CitizenActionController</servlet-name>
+    <url-pattern>/citizenAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminActionController</servlet-name>
+    <url-pattern>/adminAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CitizenMissingPersonActionController</servlet-name>
+    <url-pattern>/citizenMissingPersonAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmpoyeeActionController</servlet-name>
+    <url-pattern>/empoyeeAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CrimeDetailsActionController</servlet-name>
+    <url-pattern>/crimeDetailsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ArrestCourtActionController</servlet-name>
+    <url-pattern>/arrestCourtAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FinalReportActionController</servlet-name>
+    <url-pattern>/finalReportAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadController</servlet-name>
+    <url-pattern>/downloadController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewMissingPersonActionController</servlet-name>
+    <url-pattern>/viewMissingPersonAction</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
