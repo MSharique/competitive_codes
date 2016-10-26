@@ -1,3 +1,0 @@
-INDEX VERSION 1.126
-G:\Dev-Cpp\codechef\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2257311446.index
-\Ecop\src

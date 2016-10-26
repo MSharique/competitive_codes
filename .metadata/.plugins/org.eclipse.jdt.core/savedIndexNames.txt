@@ -1,8 +1,0 @@
-INDEX VERSION 1.126+G:\Dev-Cpp\codechef\.metadata\.plugins\org.eclipse.jdt.core
-3085053176.index
-1881466972.index
-14823268.index
-1751312613.index
-3271193799.index
-1878658805.index
-700474080.index
